@@ -1,0 +1,1 @@
+echo "telethon" > requirements.txt
