@@ -30,8 +30,8 @@ def framed_banner():
     width = min(80, shutil.get_terminal_size().columns - 4)
     lines = [
         "🛠 Developed by @originalprofil",
-        "📢 Telegram kanalimiz: @originalprofil",
-        "✉ Savol va takliflar uchun shu akkauntga yozing"
+        "Savol va takliflar uchun shu akkauntga yozing",
+        "📢 Telegram kanalimiz: @termuxtools_uz"
     ]
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     print("\033[92m╔" + "═" * width + "╗")
