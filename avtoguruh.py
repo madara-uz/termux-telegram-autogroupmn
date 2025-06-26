@@ -62,7 +62,7 @@ def intro():
 intro()
 
 # ==== Telefon raqamni so‘raymiz (sessiya nomi uchun) ====
-phone = input("📱 Telefon raqamingiz (+998...): ").strip()
+phone = input("📱 Telefon raqamingiz (To'liq formatda !): ").strip()
 session_name = f"session_{phone.replace('+', '')}"
 
 # ==== API ID va HASH ni config.txt dan o‘qish yoki so‘rash ====
